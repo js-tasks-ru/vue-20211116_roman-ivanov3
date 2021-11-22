@@ -40,7 +40,7 @@ const App = {
       return emails.map((email) => {
         return {
           email,
-          marked: this.search && email.toLowerCase().includes(this.search) ? true : false,
+          marked: !!this.search && email.toLowerCase().includes(this.search),
         };
       });
     },
