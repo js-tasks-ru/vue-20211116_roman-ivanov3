@@ -29,6 +29,7 @@ export default {
 
   computed: {
     markup() {
+    
       const toastTypesMarkup = {
         success: {
           class: 'toast_success',
