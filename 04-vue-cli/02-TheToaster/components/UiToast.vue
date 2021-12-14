@@ -29,8 +29,7 @@ export default {
 
   computed: {
     markup() {
-      // Будем хранить класс и иконку для каждого типа тоста
-      // Легко добавить новый тип при необходимости
+    
       const toastTypesMarkup = {
         success: {
           class: 'toast_success',
